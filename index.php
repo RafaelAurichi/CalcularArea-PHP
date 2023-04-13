@@ -21,51 +21,87 @@
             <form method="POST">
 
                 <div class="text-start form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <input class="form-check-input" type="radio" name="forma" value="retangulo" id="flexCheckDefault">
                   <label class="form-check-label" for="flexCheckDefault">
                     Retângulo
                   </label>
                   <div class="text-center mb-4">
                     <label class="form-label text-warning bg-dark">Digite a base:</label>
-                    <input type="text" class="form-control" placeholder="Digite um número" name="numeroUm">
+
+                    <div class="input-group">
+                      <span class="input-group-text" id="basic-addon1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
+                          <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"></path>
+                        </svg>
+                      </span>
+                      <input type="number" class="form-control" placeholder="Digite a base" name="lado1" aria-label="Input group example" aria-describedby="basic-addon1">
+                    </div>
                   </div>
                   <div class="text-center mb-4">
                     <label class="form-label text-warning bg-dark">Digite a altura:</label>
-                    <input type="text" class="form-control" placeholder="Digite outro número" name="numeroDois">
+
+                    <div class="input-group">
+                      <span class="input-group-text" id="basic-addon1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
+                          <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"></path>
+                        </svg>
+                      </span>
+                      <input type="number" class="form-control" placeholder="Digite a altura" name="lado2" aria-label="Input group example" aria-describedby="basic-addon1">
+                    </div>
                   </div>
                 </div>
 
                 <hr style="color: white; width: 95; height: 2px;">
 
                 <div class="text-start form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <input class="form-check-input" type="radio" name="forma" value="triangulo" id="flexCheckDefault">
                   <label class="form-check-label" for="flexCheckDefault">
                     Triângulo
                   </label>
                   <div class="text-center mb-4">
                     <label class="form-label text-warning bg-dark">Digite a base:</label>
-                    <input type="text" class="form-control" placeholder="Digite um número" name="numeroUm">
+
+                    <div class="input-group">
+                      <span class="input-group-text" id="basic-addon1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-triangle-fill" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M7.022 1.566a1.13 1.13 0 0 1 1.96 0l6.857 11.667c.457.778-.092 1.767-.98 1.767H1.144c-.889 0-1.437-.99-.98-1.767L7.022 1.566z"/>
+                        </svg>
+                      </span>
+                      <input type="number" class="form-control" placeholder="Digite a base" name="base" aria-label="Input group example" aria-describedby="basic-addon1">
+                    </div>
                   </div>
                   <div class="text-center mb-4">
                     <label class="form-label text-warning bg-dark">Digite a altura:</label>
-                    <input type="text" class="form-control" placeholder="Digite outro número" name="numeroDois">
+
+                    <div class="input-group">
+                      <span class="input-group-text" id="basic-addon1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-triangle-fill" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M7.022 1.566a1.13 1.13 0 0 1 1.96 0l6.857 11.667c.457.778-.092 1.767-.98 1.767H1.144c-.889 0-1.437-.99-.98-1.767L7.022 1.566z"/>
+                        </svg>
+                      </span>
+                      <input type="number" class="form-control" placeholder="Digite a altura" name="altura" aria-label="Input group example" aria-describedby="basic-addon1">
+                    </div>
                   </div>
                 </div>
 
                 <hr style="color: white; width: 95; height: 2px;">
 
                 <div class="text-start form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <input class="form-check-input" type="radio" name="forma" value="circulo" id="flexCheckDefault">
                   <label class="form-check-label" for="flexCheckDefault">
                     Círculo
                   </label>
                   <div class="text-center mb-4">
-                    <label class="form-label text-warning bg-dark">Digite a base:</label>
-                    <input type="text" class="form-control" placeholder="Digite um número" name="numeroUm">
-                  </div>
-                  <div class="text-center mb-4">
-                    <label class="form-label text-warning bg-dark">Digite a altura:</label>
-                    <input type="text" class="form-control" placeholder="Digite outro número" name="numeroDois">
+                    <label class="form-label text-warning bg-dark">Digite o raio:</label>
+
+                    <div class="input-group">
+                      <span class="input-group-text" id="basic-addon1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                          <circle cx="8" cy="8" r="8"/>
+                        </svg>
+                      </span>
+                      <input type="number" class="form-control" placeholder="Digite a raio" name="raio" aria-label="Input group example" aria-describedby="basic-addon1">
+                    </div>
                   </div>
                 </div>
 
@@ -81,15 +117,62 @@
           <div class="text-warning">
 
             <?php
-              include "./function.php";
+              include "function.php";
 
-                if (empty($_POST["numeroUm"]) || empty($_POST["numeroDois"])) {
-                    echo "Selecione dois números válidos!";
-                }elseif (empty($_POST["operacao"])){
-                    echo "Selecione uma operação!";
-                }else{
-                    calcular();
+              if (empty($_POST["forma"])){
+                echo "Selecione uma forma geométrica!";
+              }else{
+                switch ($_POST["forma"]){
+                  case "retangulo":
+                    if (empty($_POST["lado1"]) || empty($_POST["lado2"])){
+                      echo "Preença os valores corretamente!";
+                    }else{
+                      CalcularArea();
+                    }
+                    break;
+                  
+                  case "triangulo":
+                    if (empty($_POST["base"]) || empty($_POST["altura"])){
+                      echo "Preença os valores corretamente!";
+                    }else{
+                      CalcularArea();
+                    }
+                    break;
+  
+                  case "circulo":
+                    if (empty($_POST["raio"])){
+                      echo "Preença os valores corretamente!";
+                    }else{
+                      CalcularArea();
+                    }
+                    break;
                 }
+              }
+              
+
+              /*if ($_POST["forma"] == "retangulo"){
+                if (empty($_POST["lado1"]) || empty($_POST["lado2"])){
+                  echo "Preença os valores corretamente!";
+                }else{
+                  CalcularArea();
+                }
+              }
+
+              if ($_POST["forma"] == "triangulo"){
+                if (empty($_POST["base"]) || empty($_POST["altura"])){
+                  echo "Preença os valores corretamente!";
+                }else{
+                  CalcularArea();
+                }
+              }
+
+              if ($_POST["forma"] == "circulo"){
+                if (empty($_POST["raio"])){
+                  echo "Preença os valores corretamente!";
+                }else{
+                  CalcularArea();
+                }
+              }*/
             ?>
           </div>
         </div>
