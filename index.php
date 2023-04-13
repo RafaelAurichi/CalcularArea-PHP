@@ -149,30 +149,6 @@
                 }
               }
               
-
-              /*if ($_POST["forma"] == "retangulo"){
-                if (empty($_POST["lado1"]) || empty($_POST["lado2"])){
-                  echo "Preença os valores corretamente!";
-                }else{
-                  CalcularArea();
-                }
-              }
-
-              if ($_POST["forma"] == "triangulo"){
-                if (empty($_POST["base"]) || empty($_POST["altura"])){
-                  echo "Preença os valores corretamente!";
-                }else{
-                  CalcularArea();
-                }
-              }
-
-              if ($_POST["forma"] == "circulo"){
-                if (empty($_POST["raio"])){
-                  echo "Preença os valores corretamente!";
-                }else{
-                  CalcularArea();
-                }
-              }*/
             ?>
           </div>
         </div>
